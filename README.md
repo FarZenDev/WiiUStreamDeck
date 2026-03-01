@@ -1,72 +1,99 @@
-WiiUStreamDeck
+# WiiUStreamDeck
 
-An open-source homebrew app that turns your Wii U GamePad into a Stream Deck controller.
+Turn your Wii U GamePad into a fully customizable Stream Deck-style controller.
 
-🎮 Overview
+WiiUStreamDeck is an open-source homebrew application that transforms your Wii U GamePad into a powerful macro controller for your PC. Designed for streamers, content creators, and power users, it gives a second life to your Wii U hardware.
 
-  WiiUStreamDeck allows you to repurpose your Wii U GamePad as a customizable macro controller, similar to a Stream Deck.
-  Trigger shortcuts, launch applications, control OBS, switch scenes, manage media, and more — directly from your Wii U GamePad.
+---
 
-  This project aims to give a second life to the Wii U GamePad by turning it into a powerful PC companion tool for streamers, creators, and power users.
+## 🚀 Features
 
-✨ Features
+- 🎛 Customizable button layouts  
+- 🎬 OBS scene switching support  
+- ⌨️ Keyboard shortcuts & macro execution  
+- 🚀 Application launcher  
+- 🎵 Media controls  
+- 🔄 Real-time button feedback  
+- ⚡ Lightweight and responsive  
+- 🔓 Fully open-source  
 
-  Customizable buttons and layouts
+---
 
-  OBS scene switching support
+## 🖥️ Architecture Overview
 
-  Macro & keyboard shortcut execution
+WiiUStreamDeck works with two components:
 
-  Application launcher
+### Wii U (Homebrew App)
+- Runs directly on the Wii U via the Homebrew Launcher  
+- Displays the interactive button interface  
+- Communicates with the PC client over the local network  
 
-  Media controls
+### PC Client
+- Receives input from the Wii U GamePad  
+- Executes configured actions (shortcuts, OBS commands, macros, etc.)  
+- Provides configuration and profile management  
 
-  Real-time button feedback
+---
 
-  Lightweight and fast
+## 📦 Installation
 
-  Fully open-source
+### Wii U Setup
 
-🖥️ How It Works
+1. Install the Homebrew Launcher on your Wii U  
+2. Copy the `WiiUStreamDeck` folder to your SD card (`/wiiu/apps/`)  
+3. Launch the app from the Homebrew Launcher  
 
-  The Wii U GamePad connects to your PC through a custom homebrew application running on the Wii U.
-  A  companion PC client handles communication and executes actions triggered from the GamePad.
+### PC Setup
 
-📷 Wii U GamePad Preview
+1. Download the latest release from the Releases page  
+2. Launch the WiiUStreamDeck PC client  
+3. Configure your buttons and actions  
+4. Connect the Wii U to the same local network  
 
-![2026-03-01_23 46 42 802_DRC](https://github.com/user-attachments/assets/99e9e55c-9d3b-4390-af63-4fdef4dab288)
+---
 
-🚀 Installation
-  Wii U Side
+## 📋 Requirements
 
-  Install the Homebrew Launcher on your Wii U.
+- A hacked Wii U with Homebrew Launcher installed  
+- Wii U GamePad  
+- Windows PC (Linux support planned)  
+- Local network connection  
 
-  Copy the WiiUStreamDeck app to your SD card.
+---
 
-  Launch it from the Homebrew Launcher.
+## 🛠️ Roadmap
 
-PC Side
+- Plugin system  
+- Custom icon upload  
+- Multi-page profiles  
+- Linux support  
+- macOS support  
+- Web-based configuration interface  
+- Profile import/export  
 
-  Download the latest release.
+---
 
-  Run the WiiUStreamDeck client.
+## 🤝 Contributing
 
-  Configure your buttons and actions.
+Contributions are welcome!
 
-  Connect your Wii U GamePad.
+If you would like to help:
+- Open an issue to report bugs or suggest features  
+- Submit a pull request  
+- Improve documentation  
 
-⚙️ Requirements
+Please make sure to follow the project structure and coding conventions.
 
-  A hacked Wii U with Homebrew Launcher
+---
 
-  Wii U GamePad
+## 📄 License
 
-  Windows PC (Linux support planned)
+This project is licensed under the MIT License.  
+See the `LICENSE` file for details.
 
-  Local network connection
+---
 
-🛠️ Roadmap
+## ⭐ Support the Project
 
-  Plugin system
-
-  Custom icon upload
+If you like this project, consider giving it a star on GitHub.  
+It helps increase visibility and motivates further development.
